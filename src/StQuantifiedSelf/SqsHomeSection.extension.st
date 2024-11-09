@@ -5,5 +5,5 @@ SqsHomeSection >> getStartedSection [
 	<gtHomeSection>
 	<gtExample>
 	<noTest>
-	^ GtHomeMultiCardGetStartedSection new
+	^ SqsHomeSection new
 ]
