@@ -21,18 +21,10 @@ SqsHomeSection >> projectDiary [
 		title: 'Project diary';
 		description: 'Track progress in an interactive journal';
 		priority: 10;
-		"pageName: 'Glamorous Toolkit';"
 		databaseName: 'Quantified Self Notebook';
 		readMoreToolbar;
-		details: [ :db | 
-			| snippets somePages |
-			somePages := db pages select: #shouldAppearInIndexOrDailyNotes.
-			snippets := somePages flatCollect: #allChildrenDepthFirst.
-			'The project diary is expressed as a knowledge base. It documents the progress in '
-				, somePages size asString , ' pages containing '
-				, snippets size asString , ' snippets of '
-				, (snippets groupedBy: #class) size asString , ' different kinds.' ]
-				yourself
+		details: [ :db | 'Some details here' ];
+		yourself
 ]
 
 { #category : #accessing }

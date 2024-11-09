@@ -11,3 +11,17 @@ BaselineOfStQuantifiedSelf >> baseline: spec [
 			spec package: 'StQuantifiedSelf'
 		]
 ]
+
+{ #category : #accessing }
+BaselineOfStQuantifiedSelf >> loadLepiter [
+	IceRepository registry
+		detect: [ :aRepository | aRepository name = 'st-quantified-self' ]
+		ifFound: [ :aRepository | 
+			| defaultDatabase currentProperties |
+			defaultDatabase := LeDatabasesRegistry defaultLogicalDatabase.
+			currentProperties := defaultDatabase properties.
+			currentProperties
+				addRegisteredDirectory: aRepository repositoryDirectory / 'lepiter'.
+			defaultDatabase reload ]
+		ifNone: [ self inform: 'Repository not found.' ]
+]
