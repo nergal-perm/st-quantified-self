@@ -1,7 +1,7 @@
-Extension { #name : #SqsHomeSection }
+Extension { #name : #GtHome }
 
 { #category : #'*StQuantifiedSelf' }
-SqsHomeSection >> getStartedSection [
+GtHome >> getQuantifiedSelfSection [
 	<gtHomeSection>
 	<gtExample>
 	<noTest>

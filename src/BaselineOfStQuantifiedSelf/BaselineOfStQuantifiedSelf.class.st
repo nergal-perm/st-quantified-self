@@ -4,16 +4,8 @@ Class {
 	#category : #BaselineOfStQuantifiedSelf
 }
 
-{ #category : #baseline }
-BaselineOfStQuantifiedSelf >> baseline: spec [
-	<baseline>
-		^ spec for: #common do: [
-			spec package: 'StQuantifiedSelf'
-		]
-]
-
 { #category : #accessing }
-BaselineOfStQuantifiedSelf >> loadLepiter [
+BaselineOfStQuantifiedSelf class >> loadLepiter [
 	IceRepository registry
 		detect: [ :aRepository | aRepository name = 'st-quantified-self' ]
 		ifFound: [ :aRepository | 
@@ -24,4 +16,12 @@ BaselineOfStQuantifiedSelf >> loadLepiter [
 				addRegisteredDirectory: aRepository repositoryDirectory / 'lepiter'.
 			defaultDatabase reload ]
 		ifNone: [ self inform: 'Repository not found.' ]
+]
+
+{ #category : #baseline }
+BaselineOfStQuantifiedSelf >> baseline: spec [
+	<baseline>
+		^ spec for: #common do: [
+			spec package: 'StQuantifiedSelf'
+		]
 ]

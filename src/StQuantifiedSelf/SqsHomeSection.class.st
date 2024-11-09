@@ -4,14 +4,6 @@ Class {
 	#category : #'StQuantifiedSelf-Base'
 }
 
-{ #category : #'*StQuantifiedSelf' }
-SqsHomeSection >> getStartedSection [
-	<gtHomeSection>
-	<gtExample>
-	<noTest>
-	^ SqsHomeSection new
-]
-
 { #category : #accessing }
 SqsHomeSection >> projectDiary [
 	<gtSectionCard>
