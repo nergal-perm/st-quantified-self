@@ -19,7 +19,7 @@ SqsHomeSection >> projectDiary [
 		description: 'Track progress in an interactive journal';
 		priority: 10;
 		databaseName: 'Quantified Self Notebook';
-		readMoreToolbar;
+		editableToolbar;
 		details: [ :db | 'Some details here' ];
 		yourself
 ]
