@@ -252,7 +252,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:26:49.201346+04:00"
+						"dateAndTimeString" : "2024-11-13T09:27:05.532312+04:00"
 					}
 				},
 				"uid" : {
@@ -262,7 +262,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "1. Полу"
+				"string" : "1. Получить Календарь, инициализированный сегодняшней (текущей) датой. "
 			}
 		]
 	},

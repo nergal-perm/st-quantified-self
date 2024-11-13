@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T10:24:31.966943+04:00"
+						"dateAndTimeString" : "2024-11-13T10:28:23.302466+04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "- Календарь для быстрой навигации. {{gtMethod:name=SqsDashboard>>calendarWidget}}"
+				"string" : "- Календарь для быстрой навигации. Элемент реализован в методк {{gtMethod:name=SqsDashboard>>calendarWidget}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T10:24:52.557029+04:00"
+						"dateAndTimeString" : "2024-11-13T10:24:56.367387+04:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "- Краткий итог дня. Редактор для данных, хранимых в БД. Должно быть можно создать прямо из дашборда. Только текст. {{gtMethod:name=Sqs}}"
+				"string" : "- Краткий итог дня. Редактор для данных, хранимых в БД. Должно быть можно создать прямо из дашборда. Только текст. {{gtMethod:name=SqsDashboard>>daySummaryEditorWidget}}"
 			},
 			{
 				"__type" : "textSnippet",

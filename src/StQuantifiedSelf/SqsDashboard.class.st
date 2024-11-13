@@ -2,7 +2,8 @@ Class {
 	#name : #SqsDashboard,
 	#superclass : #Object,
 	#instVars : [
-		'date'
+		'date',
+		'announcer'
 	],
 	#category : #StQuantifiedSelf
 }
@@ -18,9 +19,19 @@ SqsDashboard class >> today [
 	^ SqsDashboard of: Date today yyyymmdd
 ]
 
+{ #category : #accessing }
+SqsDashboard >> announcer [
+	^ announcer
+]
+
 { #category : #widgets }
 SqsDashboard >> calendarWidget [
-	^ GtCalendarElement forDate: self date
+	| calendar |
+	calendar := GtCalendarElement forDate: self date.
+	calendar
+		when: GtCalendarDateClickedEvent
+		do: [ :event | self date: event date. self announcer announce: SqsDateChanged ].
+	^ calendar
 ]
 
 { #category : #accessing }
@@ -36,7 +47,8 @@ SqsDashboard >> date: aDate [
 { #category : #widgets }
 SqsDashboard >> daySummaryEditorWidget [
 	| snippetViewModel snippet |
-	snippet := LeTextSnippet string: self journalFile contents.
+	
+	snippet := self hasJournalEntry ifTrue: [LeTextSnippet string: self journalFile contents] ifFalse: [LeTextSnippet string: 'No journal entry for this day'].
 	snippetViewModel := snippet asSnippetViewModel.
 	snippetViewModel coderViewModel
 		addShortcut: (BrEditorShortcut lineEnding
@@ -81,7 +93,8 @@ SqsDashboard >> gtDashboardFor: aView [
 			mainRow addChild: calendar.
 			mainRow addChild: summary.
 			container addChild: mainRow.
-			container ]
+			container ];
+		updateWhen: SqsDateChanged in: self announcer
 ]
 
 { #category : #'view creation' }
@@ -106,6 +119,11 @@ SqsDashboard >> gtJournalFor: aView context: aContext [
 { #category : #testing }
 SqsDashboard >> hasJournalEntry [
 	^ (self journalDirectory / self journalFileName) asFileReference exists
+]
+
+{ #category : #initalization }
+SqsDashboard >> initialize [
+	announcer := Announcer new
 ]
 
 { #category : #accessing }
