@@ -14,6 +14,11 @@ SqsDay class >> of: aDate [
 ]
 
 { #category : #accessing }
+SqsDay class >> today [
+	^ SqsDay of: Date today yyyymmdd
+]
+
+{ #category : #accessing }
 SqsDay >> date [
 	^ date
 ]

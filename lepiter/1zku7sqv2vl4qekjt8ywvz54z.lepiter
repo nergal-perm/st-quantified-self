@@ -113,6 +113,40 @@
 				"code" : "SqsDay of: '2024-10-26'"
 			},
 			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T09:29:28.381186+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T09:29:37.144316+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "IUvFWibjDQCwkoMdA8jjqw=="
+				},
+				"code" : "SqsDay today"
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -377,7 +411,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T16:53:50.214143+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T16:53:50.217059+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZliPcRjjDQCZHIs8CKjdoA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Отображать два редактора в дневнике]]"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -387,7 +459,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-10T09:44:59.910647+04:00"
+						"dateAndTimeString" : "2024-11-12T16:49:29.585291+04:00"
 					}
 				},
 				"editEmail" : {
@@ -398,17 +470,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-10T09:44:59.910647+04:00"
+						"dateAndTimeString" : "2024-11-12T16:50:45.245547+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "QyvFOOriDQCRf39kAuB+YQ=="
+					"uidString" : "RVCQYhjjDQCPDtwrCKjdoA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "А еще было бы неплохо отображать два редактора: один для краткого текстового резюме дня (которое может храниться в БД), а другой - для расширенного markdown-дневника, который лежит в файле на диске (в хранилище Obsidian)."
 			}
 		]
 	},
