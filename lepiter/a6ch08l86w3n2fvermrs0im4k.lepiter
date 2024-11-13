@@ -129,6 +129,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T09:41:40.101456+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T10:24:31.966943+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1HdihibjDQCPwr3AA8jjqw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- Календарь для быстрой навигации. {{gtMethod:name=SqsDashboard>>calendarWidget}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-11-13T09:35:27.331536+04:00"
 					}
 				},
@@ -140,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:36:15.188823+04:00"
+						"dateAndTimeString" : "2024-11-13T10:24:56.367387+04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "1. Краткий итог дня. Редактор для данных, хранимых в БД. Должно быть можно создать прямо из дашборда. Только текст."
+				"string" : "- Краткий итог дня. Редактор для данных, хранимых в БД. Должно быть можно создать прямо из дашборда. Только текст. {{gtMethod:name=SqsDashboard>>daySummaryEditorWidget}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -411,43 +448,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "7. Информация о питании (сегодня и среднее за последние Х дней)"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:41:40.101456+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:43:50.197717+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "1HdihibjDQCPwr3AA8jjqw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "8. Календарь для быстрой навигации"
 			}
 		]
 	},

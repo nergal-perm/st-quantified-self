@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-10T08:55:18.59941+04:00"
+						"dateAndTimeString" : "2024-11-13T09:49:21.04752+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "z9wSruDiDQCHG02hBZTKJA=="
 				},
-				"code" : "SqsDay of: '2024-10-26'"
+				"code" : "SqsDashboard of: '2024-10-26'"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:29:37.144316+04:00"
+						"dateAndTimeString" : "2024-11-13T09:49:21.024342+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "IUvFWibjDQCwkoMdA8jjqw=="
 				},
-				"code" : "SqsDay today"
+				"code" : "SqsDashboard today"
 			},
 			{
 				"__type" : "textSnippet",
@@ -287,7 +287,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-10T09:44:50.193648+04:00"
+									"dateAndTimeString" : "2024-11-13T09:49:20.998957+04:00"
 								}
 							},
 							"uid" : {
@@ -297,7 +297,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "UPD 2024-11-10: Реализован метод {{gtMethod:name=SqsDay>>journalDirectory}}, получающий ссылку на папку с дневниковыми записями."
+							"string" : "UPD 2024-11-10: Реализован метод {{gtMethod:name=SqsDashboard>>journalDirectory}}, получающий ссылку на папку с дневниковыми записями."
 						}
 					]
 				},
@@ -362,7 +362,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-10T09:46:24.646258+04:00"
+									"dateAndTimeString" : "2024-11-13T09:49:21.060045+04:00"
 								}
 							},
 							"uid" : {
@@ -372,7 +372,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "UPD 2024-11-10: Реализован (скопирован с git-инструмента) метод {{gtMethod:name=SqsDay>>gtJournalFor:context:}}, отображающий редактор текста для ввода содержимого дневниковой записи."
+							"string" : "UPD 2024-11-10: Реализован (скопирован с git-инструмента) метод {{gtMethod:name=SqsDashboard>>gtJournalFor:context:}}, отображающий редактор текста для ввода содержимого дневниковой записи."
 						}
 					]
 				},
