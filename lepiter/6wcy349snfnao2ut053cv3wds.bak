@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T20:04:32.260122+04:00"
+						"dateAndTimeString" : "2024-11-14T08:03:06.298834+04:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Такое ощущение, что часть запросов к БД можно будет инкапсулировать в отдельных объектах. Например, создание и извлечение конкретных дней можно вполне инкапслировать в объекте **День**."
+				"string" : "Такое ощущение, что часть запросов к БД можно будет инкапсулировать в отдельных объектах. Например, создание и извлечение конкретных дней можно вполне инкапсулировать в объекте **День**."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T20:25:13.200909+04:00"
+						"dateAndTimeString" : "2024-11-14T10:54:41.596017+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "QIX6di/jDQCUU8OJAsWHdA=="
 				},
-				"code" : "parameters := Dictionary new.\rparameters at: 'name' put: '2024-11-13'.\rrequest := Dictionary new.\rrequest at: 'statement' put: 'MATCH (n:Day {name: $name}) RETURN n'.\rrequest at: 'parameters' put: parameters.\rrequest.\rZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost"
+				"code" : "parameters := Dictionary new.\rparameters at: 'name' put: '2024-11-13'.\rrequest := Dictionary new.\rrequest at: 'statement' put: 'MATCH (n:Day {name: $name}) RETURN n'.\rrequest at: 'parameters' put: parameters.\rrequest.\rresponse := ZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost."
 			},
 			{
 				"__type" : "textSnippet",
@@ -219,6 +219,120 @@
 					"__type" : "textStyle"
 				},
 				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:06:09.258302+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:06:14.689227+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1KjyqDzjDQCWjih5DzalEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 2024-11-14"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:06:15.23588+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:06:55.290126+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "puJNqTzjDQCWz6gnDzalEA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "В итоге запилил пару сущностей для работы с запросами к БД Neo4j. Пример такой сущности:"
+			},
+			{
+				"__type" : "exampleSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:07:07.821167+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:07:07.821167+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "H0NwrDzjDQCYoATYDzalEA=="
+				},
+				"exampleSelector" : "for",
+				"previewHeight" : 200,
+				"previewShowSelector" : "gtViewsFor:",
+				"exampleBehaviorName" : "SqsNeo4jQuery class",
+				"codeExpanded" : true,
+				"previewExpanded" : false,
+				"noCode" : false
 			}
 		]
 	},

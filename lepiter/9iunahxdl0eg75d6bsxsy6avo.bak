@@ -156,6 +156,43 @@
 								"__type" : "textStyle"
 							},
 							"string" : "[[Хранение данных в графовой БД]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T20:01:16.50411+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T20:01:33.334358+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kFZFLi/jDQCHmzgeAsWHdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[GraphQL-speaking Objects]]"
 						}
 					]
 				},
@@ -236,7 +273,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-11-14T10:14:15.545213+04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-11-14T10:14:24.419443+04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "gYTHGDvjDQCON/ynDzalEA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Итоги дня"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",

@@ -14,36 +14,7 @@ SqsJournalEntry class >> for: aDate [
 		yourself 
 ]
 
-{ #category : #'instance creation' }
+{ #category : #initialization }
 SqsJournalEntry >> date: aDate [ 
 	date := aDate
-]
-
-{ #category : #'view creation' }
-SqsJournalEntry >> editorsContainer [
-	| pane summaryEditor detailsEditor |
-	pane := BrVerticalPane new matchParent
-			background: Color random;
-			yourself.
-	summaryEditor := BrHorizontalPane new hMatchParent
-			background: Color random;
-			margin: (BlInsets all: 10);
-			yourself.
-	detailsEditor := BrHorizontalPane new hMatchParent
-			background: Color random;
-			margin: (BlInsets all: 10);
-			yourself.
-	pane
-		addChild: summaryEditor;
-		addChild: detailsEditor.
-	^ pane
-]
-
-{ #category : #'view creation' }
-SqsJournalEntry >> gtJournalViewFor: aView [
-	<gtView>
-		^ aView explicit
-		title: 'Journal';
-		priority: 10;
-		stencil: [ self editorsContainer]
 ]
