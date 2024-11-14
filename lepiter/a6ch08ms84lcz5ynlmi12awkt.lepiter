@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:34:12.90943+04:00"
+						"dateAndTimeString" : "2024-11-13T12:29:46.474575+04:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:35:13.284108+04:00"
+						"dateAndTimeString" : "2024-11-13T12:29:46.483934+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jt26aybjDQC2LQedA8jjqw=="
+					"uidString" : "jTJQ3yjjDQCpJYhrA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Если [[День - основная точка ввода информации]], то было бы неплохо сразу же видеть какой-то дашборд, сводную информацию по дню и какому-то ближайшему будущему."
+				"string" : "[[#TODO]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:44:40.063684+04:00"
+						"dateAndTimeString" : "2024-11-13T12:29:47.648361+04:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:46:03.925076+04:00"
+						"dateAndTimeString" : "2024-11-13T12:30:31.892745+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "9HcckSbjDQCQhQX6A8jjqw=="
+					"uidString" : "Ejem3yjjDQCpR+bKA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Возможно, что при этом самостоятельный объект для конкретного дня окажется не нужен, т.к. привязка к дате будет известна на дашборде, а вся остальная функциональность может вызываться через спец.объекты, типа \"Дневник\", \"Питание\", \"Тренировка\" и т.п. Каждый из них будет инициализироваться датой и сохранять свои данные в БД, откуда они будут доступны для дашборда."
+				"string" : "Небольшой текстовый редактор, возможно с ограничением по количеству символов в районе 300. Должен получать текст из БД, а введенный текст - сохранять в БД."
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:35:15.701298+04:00"
+						"dateAndTimeString" : "2024-11-13T12:30:33.106001+04:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:35:26.45242+04:00"
+						"dateAndTimeString" : "2024-11-13T12:30:42.438177+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "aPx4bybjDQC3wDcbA8jjqw=="
+					"uidString" : "9ddb4ijjDQCt2U1NA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Части дашборда"
+				"string" : "## Сценарии использования"
 			},
 			{
 				"__type" : "textSnippet",
@@ -129,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:41:40.101456+04:00"
+						"dateAndTimeString" : "2024-11-13T12:30:42.892002+04:00"
 					}
 				},
 				"editEmail" : {
@@ -140,17 +140,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T12:29:19.219659+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:02.999148+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1HdihibjDQCPwr3AA8jjqw=="
+					"uidString" : "uinx4ijjDQCul9RFA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "- Календарь для быстрой навигации. Элемент реализован в методе {{gtMethod:name=SqsDashboard>>calendarWidget}}. Основная заметка по проектированию и разработке: [[Календарь]]"
+				"string" : "1. Для дня, у которого нет итоговой записи в БД, нужно показать предустановленный текст."
 			},
 			{
 				"__type" : "textSnippet",
@@ -166,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:35:27.331536+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:05.31554+04:00"
 					}
 				},
 				"editEmail" : {
@@ -177,92 +177,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T10:24:56.367387+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:25.371833+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "PHMqcCbjDQC4LvifA8jjqw=="
+					"uidString" : "4HOINinjDQCz8rM1A8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "- Краткий итог дня. Редактор для данных, хранимых в БД. Должно быть можно создать прямо из дашборда. Только текст. {{gtMethod:name=SqsDashboard>>daySummaryEditorWidget}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-13T09:37:56.767091+04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-13T09:38:04.333222+04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "rKB2eCbjDQCBgPRoA8jjqw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[#TODO]] Найти источники данных по погоде"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:36:15.643819+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:37:45.406434+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "qKILcybjDQC6csyUA8jjqw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "2. Прогноз погоды (если дата = сегодня или в будущем) или фактическая погода за день (если дата в прошлом). Если можно, то сгенерить из хранимых / прогнозных данных какое-то визуальное представление (тучки, солнышки, вот что-то такое)."
+				"string" : "2. При сохранении записать текст в БД"
 			},
 			{
 				"__type" : "textSnippet",
@@ -278,7 +203,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:37:47.078205+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:26.140017+04:00"
 					}
 				},
 				"editEmail" : {
@@ -289,17 +214,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:38:26.847059+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:38.892998+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ZM9+eCbjDQCBhf6mA8jjqw=="
+					"uidString" : "2DTGNynjDQC07PvzA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "3. Список дел на эту дату. "
+				"string" : "3. Для дня, у которого есть запись в БД, нужно показать эту запись."
 			},
 			{
 				"__type" : "textSnippet",
@@ -315,7 +240,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:38:28.142107+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:39.237153+04:00"
 					}
 				},
 				"editEmail" : {
@@ -326,17 +251,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:38:39.55888+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:39.237153+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "hmbxeibjDQCDTAlyA8jjqw=="
+					"uidString" : "rAyOOCnjDQC2XidSA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "4. Список событий на эту дату и ближайшую неделю"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -352,7 +277,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:38:41.255548+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:39.397763+04:00"
 					}
 				},
 				"editEmail" : {
@@ -363,17 +288,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:40:15.616279+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:42.667889+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0X65eybjDQCEVfqfA8jjqw=="
+					"uidString" : "jXyQOCnjDQC2Y76yA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "5. Кнопки действий для ввода любой информации (дневник питания, тренировок, обычный дневник, импорт данных о сне, ввод данных по финансам). Возможно, что каждое из этих действий будет вызываться кликом по соответствующему виджету. Тогда в этом разделе должны быть только действия, для которых нет виджета. "
+				"string" : "Итого нужно:"
 			},
 			{
 				"__type" : "textSnippet",
@@ -389,7 +314,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:40:29.241166+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:42.880529+04:00"
 					}
 				},
 				"editEmail" : {
@@ -400,17 +325,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:40:57.794402+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:53.195575+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1zQpgibjDQCLnjfaA8jjqw=="
+					"uidString" : "lKPFOCnjDQC2pGX3A8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "6. Форма для ввода любых заметок, они должны дописываться в конец дневниковой заметки в Обсидиане"
+				"string" : "- инициализировать спец. объект конкретной датой"
 			},
 			{
 				"__type" : "textSnippet",
@@ -426,7 +351,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:41:08.30723+04:00"
+						"dateAndTimeString" : "2024-11-13T12:54:53.602849+04:00"
 					}
 				},
 				"editEmail" : {
@@ -437,17 +362,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T09:41:39.398479+04:00"
+						"dateAndTimeString" : "2024-11-13T12:55:07.171928+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "UFN9hCbjDQCNnD8SA8jjqw=="
+					"uidString" : "Cj5pOSnjDQC3wSgJA8jjqw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "7. Информация о питании (сегодня и среднее за последние Х дней)"
+				"string" : "- проверить наличие записи за эту дату в БД"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T12:55:09.841368+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T12:55:15.160301+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+QlhOinjDQC4u3/eA8jjqw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- сохранить текст записи в БД"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T12:55:17.092348+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T12:55:23.049195+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RqzPOinjDQC5ZWDJA8jjqw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- извлечь текст записи из БД"
 			}
 		]
 	},
@@ -459,7 +458,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-11-13T09:34:12.877539+04:00"
+			"dateAndTimeString" : "2024-11-13T12:29:41.950968+04:00"
 		}
 	},
 	"editEmail" : {
@@ -470,15 +469,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-11-13T09:34:12.877539+04:00"
+			"dateAndTimeString" : "2024-11-13T12:29:41.950968+04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Дашборд как точка входа в приложение"
+		"title" : "Редактор итогов дня"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "8460ba6b-26e3-0d00-b62c-3e2103c8e3ab"
+		"uuid" : "6d494fdf-28e3-0d00-a924-1e5503c8e3ab"
 	}
 }

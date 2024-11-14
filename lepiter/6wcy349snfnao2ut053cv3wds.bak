@@ -1,0 +1,255 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:01:35.443221+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:04:32.260122+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RVlmLy/jDQCIgfWhAsWHdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Такое ощущение, что часть запросов к БД можно будет инкапсулировать в отдельных объектах. Например, создание и извлечение конкретных дней можно вполне инкапслировать в объекте **День**."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:21:57.449742+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:22:05.488466+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mvYUOi/jDQCM87RTAsWHdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Запрос одного узла, соответствующего дню:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:21:36.346973+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:25:13.200909+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QIX6di/jDQCUU8OJAsWHdA=="
+				},
+				"code" : "parameters := Dictionary new.\rparameters at: 'name' put: '2024-11-13'.\rrequest := Dictionary new.\rrequest at: 'statement' put: 'MATCH (n:Day {name: $name}) RETURN n'.\rrequest at: 'parameters' put: parameters.\rrequest.\rZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:23:09.798962+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:23:18.675125+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "peJHfC/jDQCWPQ6MAsWHdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Создание нового дня (если такого узла еще нет):"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:23:22.888129+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:24:54.890744+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8kZUfS/jDQCXZKjGAsWHdA=="
+				},
+				"code" : "parameters := Dictionary new.\rparameters at: 'name' put: '2024-11-13'.\rrequest := Dictionary new.\rrequest at: 'statement' put: 'MERGE (n:Day {name: $name})'.\rrequest at: 'parameters' put: parameters.\rrequest.\rZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:23:19.395674+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T20:23:19.395674+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "uQ8ffS/jDQCXXxeTAsWHdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-11-13T20:01:35.381233+04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-11-13T20:01:35.381233+04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "GraphQL-speaking Objects"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "b065652f-2fe3-0d00-8880-479a02c58774"
+	}
+}

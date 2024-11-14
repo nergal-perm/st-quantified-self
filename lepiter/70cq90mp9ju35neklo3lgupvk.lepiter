@@ -238,6 +238,77 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T19:53:52.196459+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T19:54:24.76739+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Wr3JEy/jDQCEnWKNAsWHdA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "После создания контейнера и первого запуска, его можно запускать командой:"
+			},
+			{
+				"__type" : "shellCommandSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T19:54:30.225121+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-13T19:54:56.344627+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "BQQOFi/jDQCGbTV4AsWHdA=="
+				},
+				"code" : "docker container start qs_neo4j"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2024-11-12T14:07:18.453524+04:00"
 					}
 				},
@@ -249,7 +320,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:07:26.134892+04:00"
+						"dateAndTimeString" : "2024-11-13T19:53:48.17516+04:00"
 					}
 				},
 				"uid" : {

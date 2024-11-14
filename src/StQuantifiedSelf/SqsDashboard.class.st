@@ -46,9 +46,11 @@ SqsDashboard >> date: aDate [
 
 { #category : #widgets }
 SqsDashboard >> daySummaryEditorWidget [
-	| snippetViewModel snippet |
-	
-	snippet := self hasJournalEntry ifTrue: [LeTextSnippet string: self journalFile contents] ifFalse: [LeTextSnippet string: 'No journal entry for this day'].
+	| snippetViewModel snippet summary |
+	snippet := self hasJournalSummary
+			ifTrue: [ LeTextSnippet
+					string: (summary := ((self journalFile at: #data) at: #values) first first) ]
+			ifFalse: [ LeTextSnippet string: 'No journal entry for this day' ].
 	snippetViewModel := snippet asSnippetViewModel.
 	snippetViewModel coderViewModel
 		addShortcut: (BrEditorShortcut lineEnding
@@ -56,12 +58,11 @@ SqsDashboard >> daySummaryEditorWidget [
 	snippetViewModel coderViewModel
 		addShortcut: (BlShortcutWithAction new
 				combination: BlKeyCombination primaryS;
-				action: [ :anEvent | 
-					self journalFile
+				action: [ :anEvent "self journalFile
 						writeStreamDo: [ :stream | 
 							stream truncate.
 							(ZnNewLineWriterStream on: stream)
-								nextPutAll: anEvent currentTarget text asString ] ]).
+								nextPutAll: anEvent currentTarget text asString ]" |  ]).
 	^ ((snippetViewModel snippetView needsEmbellishments: false) asElement
 		snippetViewModel: snippetViewModel)
 		vMatchParent;
@@ -100,7 +101,7 @@ SqsDashboard >> gtDashboardFor: aView [
 { #category : #'view creation' }
 SqsDashboard >> gtJournalFor: aView context: aContext [
 	<gtView>
-	self hasJournalEntry not ifTrue: [ ^ aView empty ].
+	self hasJournalSummary not ifTrue: [ ^ aView empty ].
 
 	^ aView explicit
 		title: 'Journal';
@@ -117,8 +118,8 @@ SqsDashboard >> gtJournalFor: aView context: aContext [
 ]
 
 { #category : #testing }
-SqsDashboard >> hasJournalEntry [
-	^ (self journalDirectory / self journalFileName) asFileReference exists
+SqsDashboard >> hasJournalSummary [
+	^ ((self journalFile at: #data) at: #values) isNotEmpty
 ]
 
 { #category : #initalization }
@@ -135,7 +136,20 @@ SqsDashboard >> journalDirectory [
 
 { #category : #'view creation' }
 SqsDashboard >> journalFile [
-	^ self journalDirectory / (self date yyyymmdd , '.md')
+	| parameters request response|
+	"^ self journalDirectory / (self date yyyymmdd , '.md')"
+	"Should use the preceding line with message 'contents' in the calling code"
+	parameters := Dictionary new.
+	parameters at: 'name' put: self date yyyymmdd.
+	request := Dictionary new.
+	request at: 'statement' put: 'MATCH (s:Summary)-[:SUMMARIZES]->(:Day {name: $name}) RETURN s.content'.
+	request at: 'parameters' put: parameters.
+	request.
+	response := STONJSON fromString: (ZnClient new
+		url: 'http://localhost:7474/db/quantified-self/query/v2';
+		entity: (ZnEntity json: (STONJSON toString: request));
+		post).
+	^ response
 ]
 
 { #category : #accessing }

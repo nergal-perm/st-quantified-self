@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T10:28:23.302466+04:00"
+						"dateAndTimeString" : "2024-11-13T10:28:41.192517+04:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "- Календарь для быстрой навигации. Элемент реализован в методк {{gtMethod:name=SqsDashboard>>calendarWidget}}"
+				"string" : "- Календарь для быстрой навигации. Элемент реализован в методе {{gtMethod:name=SqsDashboard>>calendarWidget}}. Основная заметка по проектированию и разработке: [[Спроектировать Календарь для навигации по датам]]"
 			},
 			{
 				"__type" : "textSnippet",

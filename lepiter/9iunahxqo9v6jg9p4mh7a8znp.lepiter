@@ -145,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-13T10:28:57.215126+04:00"
+									"dateAndTimeString" : "2024-11-13T12:27:22.964337+04:00"
 								}
 							},
 							"uid" : {
@@ -155,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[#TODO]] Обработать клик на дате, вернуть новый объект дашборда"
+							"string" : "{{gtTodo:label=Обработать клик на дате, вернуть новый объект дашборда|completed=2024-11-13}} "
 						}
 					]
 				},
@@ -285,12 +285,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-11-12T16:12:11.032959+04:00"
+			"dateAndTimeString" : "2024-11-13T12:29:19.175453+04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Спроектировать Календарь для навигации по датам"
+		"title" : "Календарь"
 	},
 	"uid" : {
 		"__type" : "uuid",
