@@ -326,13 +326,50 @@
 					"__type" : "uid",
 					"uidString" : "H0NwrDzjDQCYoATYDzalEA=="
 				},
-				"exampleSelector" : "for",
+				"exampleSelector" : "forNovember13",
 				"previewHeight" : 200,
 				"previewShowSelector" : "gtViewsFor:",
 				"exampleBehaviorName" : "SqsNeo4jQuery class",
 				"codeExpanded" : true,
 				"previewExpanded" : false,
 				"noCode" : false
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:52:56.344663+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-14T12:53:14.016988+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "aVohUD3jDQCC1rCpBMndBg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Но в целом, это, конечно, больше похоже на сущность \"День\", которая умеет ходить в БД за все"
 			}
 		]
 	},

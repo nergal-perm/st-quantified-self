@@ -3,7 +3,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'date',
-		'announcer'
+		'announcer',
+		'query'
 	],
 	#category : #StQuantifiedSelf
 }
@@ -11,10 +12,11 @@ Class {
 { #category : #'instance creation' }
 SqsDashboard class >> of: aDate [
 	 ^ self new
-	 	date: aDate
+	 	date: aDate;
+	 	query: (SqsNeo4jQuery forDay: aDate asDate) 
 ]
 
-{ #category : #accessing }
+{ #category : #'instance creation' }
 SqsDashboard class >> today [
 	^ SqsDashboard of: Date today yyyymmdd
 ]
@@ -46,10 +48,9 @@ SqsDashboard >> date: aDate [
 
 { #category : #widgets }
 SqsDashboard >> daySummaryEditorWidget [
-	| snippetViewModel snippet summary |
+	| snippetViewModel snippet |
 	snippet := self hasJournalSummary
-			ifTrue: [ LeTextSnippet
-					string: (summary := ((self journalFile at: #data) at: #values) first first) ]
+			ifTrue: [ LeTextSnippet string: self query asJournalSummary ]
 			ifFalse: [ LeTextSnippet string: 'No journal entry for this day' ].
 	snippetViewModel := snippet asSnippetViewModel.
 	snippetViewModel coderViewModel
@@ -119,7 +120,7 @@ SqsDashboard >> gtJournalFor: aView context: aContext [
 
 { #category : #testing }
 SqsDashboard >> hasJournalSummary [
-	^ ((self journalFile at: #data) at: #values) isNotEmpty
+	^ self query hasRows
 ]
 
 { #category : #initalization }
@@ -155,4 +156,14 @@ SqsDashboard >> journalFile [
 { #category : #accessing }
 SqsDashboard >> journalFileName [
 	^ self date yyyymmdd , '.md'
+]
+
+{ #category : #accessing }
+SqsDashboard >> query [
+	^ query
+]
+
+{ #category : #'instance creation' }
+SqsDashboard >> query: aSqsNeo4jQuery [
+	query := aSqsNeo4jQuery 
 ]

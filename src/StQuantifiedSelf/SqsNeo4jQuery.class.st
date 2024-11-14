@@ -23,6 +23,16 @@ SqsNeo4jQuery class >> forNovember13 [
 	^ self forDay: (Date fromString: '11/13/2024')
 ]
 
+{ #category : #actions }
+SqsNeo4jQuery >> asRequestBody [
+	^ STONJSON
+		toString: (Dictionary
+				newFromPairs: {#statement.
+						self statement.
+						#parameters.
+						self parameters})
+]
+
 { #category : #constants }
 SqsNeo4jQuery >> databaseUrl [
 	^ 'http://localhost:7474/db/quantified-self/query/v2'
@@ -31,17 +41,22 @@ SqsNeo4jQuery >> databaseUrl [
 { #category : #views }
 SqsNeo4jQuery >> gtResponseItemsFor: aView [
 	<gtView>
-	| view items |
-	self response ifNil: [self perform].
-	items := (self response at: #data) at: #values.
+	| view |
+	self perform.
 	view := aView columnedList
 			title: 'Items';
 			priority: 20;
-			items: [ items ];
+			items: [ self relationships ];
 			yourself.
 	((self response at: #data) at: #fields)
-		doWithIndex: [ :each :index | view column: (each) text: [ :item | SqsNeo4jEntity from: (item at: index) ] ].
-		^ view 
+		doWithIndex: [ :each :index | view column: each text: [ :item | SqsNeo4jEntity from: (item at: index) ] ].
+	^ view
+]
+
+{ #category : #testing }
+SqsNeo4jQuery >> hasRows [
+	self perform.
+	^ self relationships isNotEmpty
 ]
 
 { #category : #accessing }
@@ -56,17 +71,18 @@ SqsNeo4jQuery >> parameters: aDictionary [
 
 { #category : #actions }
 SqsNeo4jQuery >> perform [
-	| request |
-	request := Dictionary
-			newFromPairs: {#statement.
-					self statement.
-					#parameters.
-					self parameters}.
-	response := STONJSON
-			fromString: (ZnClient new
-					url: self databaseUrl;
-					entity: (ZnEntity json: (STONJSON toString: request));
-					post)
+	self response
+		ifNil: [ response := STONJSON
+					fromString: (ZnClient new
+							url: self databaseUrl;
+							entity: (ZnEntity json: self asRequestBody);
+							post) ]
+]
+
+{ #category : #views }
+SqsNeo4jQuery >> relationships [
+	self perform.
+	^ (self response at: #data) at: #values
 ]
 
 { #category : #accessing }
