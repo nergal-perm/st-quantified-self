@@ -24,12 +24,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2024-11-14T13:28:02.629939+04:00"
+			"dateAndTimeString" : "2024-11-14T13:28:53.030921+04:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Просмотр текстового итога дня"
+		"title" : "Для дня без текстовых итогов отображать предустановленный текст"
 	},
 	"uid" : {
 		"__type" : "uuid",

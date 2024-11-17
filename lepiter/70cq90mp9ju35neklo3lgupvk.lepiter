@@ -120,7 +120,221 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T12:04:11.04978+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:04:28.927002+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "hTc4ZhTjDQCF1qe8D4Fndg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Можно настроить все это дело в Докере, а не устанавливать вручную. Вот [инструкция](https://neo4j.com/docs/operations-manual/current/docker/)."
+						},
+						{
+							"__type" : "shellCommandSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:02:17.052989+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:36:09.247229+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LPmTDBbjDQCTxhp9CKjdoA=="
+							},
+							"code" : "docker run \\\r    --detach \\\n    --publish=7474:7474 --publish=7687:7687 \\\n    --env NEO4J_AUTH=none \\\r    --volume=$HOME/Documents/QsDatabase/data:/data \\\r    --volume=$HOME/Documents/QsDatabase/conf:/conf \\\r    --name=qs_neo4j \\\n    neo4j:5.25.1"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T19:53:52.196459+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T19:54:24.76739+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Wr3JEy/jDQCEnWKNAsWHdA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "После создания контейнера и первого запуска, его можно запускать командой:"
+						},
+						{
+							"__type" : "shellCommandSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T19:54:30.225121+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T19:54:56.344627+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "BQQOFi/jDQCGbTV4AsWHdA=="
+							},
+							"code" : "docker container start qs_neo4j"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:07:18.453524+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-13T19:53:48.17516+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+4VwHhbjDQCVc5JeCKjdoA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Можно проверить подключение:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:07:34.498901+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T15:24:27.133249+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "at5/HxbjDQCWQ2UzCKjdoA=="
+							},
+							"code" : "request := Dictionary new.\rrequest at: 'statement' put: 'RETURN 1'.\rZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -157,220 +371,154 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T12:04:11.04978+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:04:28.927002+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "hTc4ZhTjDQCF1qe8D4Fndg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Можно настроить все это дело в Докере, а не устанавливать вручную. Вот [инструкция](https://neo4j.com/docs/operations-manual/current/docker/)."
-			},
-			{
-				"__type" : "shellCommandSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:02:17.052989+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:36:09.247229+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "LPmTDBbjDQCTxhp9CKjdoA=="
-				},
-				"code" : "docker run \\\r    --detach \\\n    --publish=7474:7474 --publish=7687:7687 \\\n    --env NEO4J_AUTH=none \\\r    --volume=$HOME/Documents/QsDatabase/data:/data \\\r    --volume=$HOME/Documents/QsDatabase/conf:/conf \\\r    --name=qs_neo4j \\\n    neo4j:5.25.1"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T19:53:52.196459+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T19:54:24.76739+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Wr3JEy/jDQCEnWKNAsWHdA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "После создания контейнера и первого запуска, его можно запускать командой:"
-			},
-			{
-				"__type" : "shellCommandSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T19:54:30.225121+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T19:54:56.344627+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "BQQOFi/jDQCGbTV4AsWHdA=="
-				},
-				"code" : "docker container start qs_neo4j"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:07:18.453524+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-13T19:53:48.17516+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "+4VwHhbjDQCVc5JeCKjdoA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Можно проверить подключение:"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:07:34.498901+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T15:24:27.133249+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "at5/HxbjDQCWQ2UzCKjdoA=="
-				},
-				"code" : "request := Dictionary new.\rrequest at: 'statement' put: 'RETURN 1'.\rZnClient new\r\turl: 'http://localhost:7474/db/quantified-self/query/v2';\r\tentity: (ZnEntity json: (STONJSON toString: request));\r\tpost."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:11:17.932138+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-12T14:11:34.135179+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "E3BOLBbjDQCYXntjCKjdoA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[Документация по Query API](https://neo4j.com/docs/query-api/current/)."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:50:02.448235+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:50:17.370546+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "vpb3zF7jDQCF7RnACwi9AA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Пример ответа от БД:"
+						},
+						{
+							"__type" : "stringSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:50:59.145958+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:56:39.979197+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "1LhY0F7jDQCGkrVjCwi9AA=="
+							},
+							"code" : "{\r  \"data\": {\r    \"fields\": [\"node\",\"relation\",\"day\"],\r    \"values\": [\r      [\r        {\r          \"elementId\": \"4:8928852e-fe2c-46bb-94ab-1747431fb98e:6\",\r          \"labels\": [\"Journal\",\"Summary\"],\r          \"properties\": {\r            \"content\": \"Сегодня у меня день рождения.\"\r          }\r        },\r        {\r          \"elementId\": \"5:8928852e-fe2c-46bb-94ab-1747431fb98e:1\",\r          \"startNodeElementId\": \"4:8928852e-fe2c-46bb-94ab-1747431fb98e:6\",\r          \"endNodeElementId\": \"4:8928852e-fe2c-46bb-94ab-1747431fb98e:5\",\r          \"type\": \"SUMMARIZES\",\r          \"properties\": {}\r        },\r        {\r          \"elementId\": \"4:8928852e-fe2c-46bb-94ab-1747431fb98e:5\",\r          \"labels\": [\"Day\"],\r          \"properties\": {\r            \"name\":\"2024-05-23\"\r          }\r        }\r      ]\r    ]\r  },\r  \"bookmarks\": [\"FB:kcwQiSiFLv4sRruUqxdHQx+5jhqQ\"]\r}",
+							"contentString" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:55:06.826963+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:58:45.391381+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Jgoc317jDQCISlNNCwi9AA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "На основе такого ответа попробую создать объекты для разбора"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -402,43 +550,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Запросы к БД"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:11:17.932138+04:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-12T14:11:34.135179+04:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "E3BOLBbjDQCYXntjCKjdoA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[Документация по Query API](https://neo4j.com/docs/query-api/current/)."
 			},
 			{
 				"__type" : "textSnippet",

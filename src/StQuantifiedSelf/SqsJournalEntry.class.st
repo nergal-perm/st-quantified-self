@@ -2,7 +2,8 @@ Class {
 	#name : #SqsJournalEntry,
 	#superclass : #Object,
 	#instVars : [
-		'date'
+		'date',
+		'rawData'
 	],
 	#category : #'StQuantifiedSelf-Journal'
 }
@@ -14,7 +15,24 @@ SqsJournalEntry class >> for: aDate [
 		yourself 
 ]
 
+{ #category : #'instance creation' }
+SqsJournalEntry class >> from: aResponse [
+	^ self new
+		rawData: aResponse;
+		yourself.
+]
+
 { #category : #initialization }
 SqsJournalEntry >> date: aDate [ 
 	date := aDate
+]
+
+{ #category : #accessing }
+SqsJournalEntry >> rawData [
+	^ rawData
+]
+
+{ #category : #accessing }
+SqsJournalEntry >> rawData: aResponse [ 
+	rawData := aResponse
 ]

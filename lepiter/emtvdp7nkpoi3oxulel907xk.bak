@@ -489,7 +489,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-15T11:21:42.025805+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-15T11:22:47.583077+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PP5yJ1DjDQCWOfBCCOZyCA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Такое ощущение, что возвращаться все же должны базовые структуры, а уже на их основе необходимо формировать объекты для работы и отображения в интерфейсе. Только так можно будет обеспечить (покрыть тестами) работоспособность мапперов и конструк"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -510,7 +548,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-14T14:00:22.65122+04:00"
+						"dateAndTimeString" : "2024-11-14T14:00:48.608636+04:00"
 					}
 				},
 				"uid" : {
@@ -520,7 +558,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "1. Непонятно, что должны возвращать заглушечные реализации. Если базовую структуру (типа json-строки, ожидаемые от REST-сервисов), то как ее получить, если зар"
+				"string" : "1. Непонятно, что должны возвращать заглушечные реализации. Если базовую структуру (типа json-строки, ожидаемые от REST-сервисов), то как ее получить, если заранее неизвестно, каким образом удаленные сервисы реагируют на запросы? Если готовый к использованию объект, то что это должен быть за объект?"
 			}
 		]
 	},

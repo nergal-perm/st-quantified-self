@@ -329,7 +329,7 @@
 				"exampleSelector" : "forNovember13",
 				"previewHeight" : 200,
 				"previewShowSelector" : "gtViewsFor:",
-				"exampleBehaviorName" : "SqsNeo4jQuery class",
+				"exampleBehaviorName" : "SqsNeo4jDayWithLinksQuery class",
 				"codeExpanded" : true,
 				"previewExpanded" : false,
 				"noCode" : false

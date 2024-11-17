@@ -4,7 +4,8 @@ Class {
 	#instVars : [
 		'date',
 		'announcer',
-		'query'
+		'query',
+		'connectors'
 	],
 	#category : #StQuantifiedSelf
 }
@@ -13,12 +14,12 @@ Class {
 SqsDashboard class >> of: aDate [
 	 ^ self new
 	 	date: aDate;
-	 	query: (SqsNeo4jQuery forDay: aDate asDate) 
+	 	query: (SqsNeo4jDayWithLinksQuery forDay: aDate asDate) 
 ]
 
 { #category : #'instance creation' }
 SqsDashboard class >> today [
-	^ SqsDashboard of: Date today yyyymmdd
+	^ self of: Date today yyyymmdd
 ]
 
 { #category : #accessing }
@@ -37,6 +38,16 @@ SqsDashboard >> calendarWidget [
 ]
 
 { #category : #accessing }
+SqsDashboard >> connectors [
+	^ connectors
+]
+
+{ #category : #'instance creation' }
+SqsDashboard >> connectors: anObject [ 
+	connectors := anObject
+]
+
+{ #category : #accessing }
 SqsDashboard >> date [
 	^ date
 ]
@@ -49,6 +60,7 @@ SqsDashboard >> date: aDate [
 { #category : #widgets }
 SqsDashboard >> daySummaryEditorWidget [
 	| snippetViewModel snippet |
+	self query: (SqsNeo4jDayWithLinksQuery new response: (STONJSON fromString: (self connectors dayLinks: self date)); yourself).
 	snippet := self hasJournalSummary
 			ifTrue: [ LeTextSnippet string: self query asJournalSummary ]
 			ifFalse: [ LeTextSnippet string: 'No journal entry for this day' ].

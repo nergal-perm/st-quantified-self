@@ -23,6 +23,155 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-15T17:35:04.932632+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-15T17:36:12.95884+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "/IogX1XjDQCe3WmOCeFrQg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Застопорился с реализацией, как будто не знаю, куда стремиться - либо в инфраструктуру и работу с графовой БД (парсинг ответов в какой-то обобщенный объект, из которого можно будет получать любые возможные доменные объекты), либо в домен и реализацию видимого пользовательского поведения."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:45:32.393025+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:46:34.128188+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "N8KqvF7jDQC9YEphCwi9AA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Склоняюсь к первому варианту, кажется, что можно было бы создать какой-то более-менее удобный способ создавать новые узлы и связи в графе, а извлекать и тем более агрегировать данные пока что вручную, \"глазками\". "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:47:26.165072+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-11-16T04:48:08.979518+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "p+Wmw17jDQCDHmtuCwi9AA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "То есть, реализовать объекты \"Узел\" и \"Отношение\", и научиться разбирать все ответы от БД в комбинации этих объектов?"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-15T17:35:00.311071+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-15T17:35:04.318015+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jdGyXlXjDQCegA84CeFrQg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# 15 Ноября 2024"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2024-11-14T13:33:53.307835+04:00"
 								}
 							},

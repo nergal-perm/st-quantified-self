@@ -1,5 +1,5 @@
 Class {
-	#name : #SqsNeo4jQuery,
+	#name : #SqsNeo4jDayWithLinksQuery,
 	#superclass : #Object,
 	#instVars : [
 		'response',
@@ -10,7 +10,7 @@ Class {
 }
 
 { #category : #'instance creation' }
-SqsNeo4jQuery class >> forDay: aDate [
+SqsNeo4jDayWithLinksQuery class >> forDay: aDate [
 	^ self new
 		statement: 'match (d:Day {name: $name})<-[r]-(n) return n, r, d';
 		parameters: (Dictionary newFromPairs: {#name . aDate yyyymmdd});
@@ -18,13 +18,21 @@ SqsNeo4jQuery class >> forDay: aDate [
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery class >> forNovember13 [
+SqsNeo4jDayWithLinksQuery class >> forNovember13 [
 	<gtExample>
 	^ self forDay: (Date fromString: '11/13/2024')
 ]
 
+{ #category : #converting }
+SqsNeo4jDayWithLinksQuery >> asJournalSummary [
+	| summaryRel |
+	summaryRel := (self relationships
+			select: [ :r | (r first at: 'labels') includes: 'Summary' ]) first.
+	^ (summaryRel first at: #properties) at: #content
+]
+
 { #category : #actions }
-SqsNeo4jQuery >> asRequestBody [
+SqsNeo4jDayWithLinksQuery >> asRequestBody [
 	^ STONJSON
 		toString: (Dictionary
 				newFromPairs: {#statement.
@@ -34,15 +42,14 @@ SqsNeo4jQuery >> asRequestBody [
 ]
 
 { #category : #constants }
-SqsNeo4jQuery >> databaseUrl [
+SqsNeo4jDayWithLinksQuery >> databaseUrl [
 	^ 'http://localhost:7474/db/quantified-self/query/v2'
 ]
 
 { #category : #views }
-SqsNeo4jQuery >> gtResponseItemsFor: aView [
+SqsNeo4jDayWithLinksQuery >> gtResponseItemsFor: aView [
 	<gtView>
 	| view |
-	self perform.
 	view := aView columnedList
 			title: 'Items';
 			priority: 20;
@@ -54,23 +61,22 @@ SqsNeo4jQuery >> gtResponseItemsFor: aView [
 ]
 
 { #category : #testing }
-SqsNeo4jQuery >> hasRows [
-	self perform.
+SqsNeo4jDayWithLinksQuery >> hasRows [
 	^ self relationships isNotEmpty
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> parameters [
+SqsNeo4jDayWithLinksQuery >> parameters [
 	^ parameters
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> parameters: aDictionary [ 
+SqsNeo4jDayWithLinksQuery >> parameters: aDictionary [ 
 	parameters := aDictionary
 ]
 
 { #category : #actions }
-SqsNeo4jQuery >> perform [
+SqsNeo4jDayWithLinksQuery >> perform [
 	self response
 		ifNil: [ response := STONJSON
 					fromString: (ZnClient new
@@ -80,27 +86,26 @@ SqsNeo4jQuery >> perform [
 ]
 
 { #category : #views }
-SqsNeo4jQuery >> relationships [
-	self perform.
+SqsNeo4jDayWithLinksQuery >> relationships [
 	^ (self response at: #data) at: #values
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> response [
+SqsNeo4jDayWithLinksQuery >> response [
 	^ response
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> response: anObject [
+SqsNeo4jDayWithLinksQuery >> response: anObject [
 	response := anObject
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> statement [
+SqsNeo4jDayWithLinksQuery >> statement [
 	^ statement
 ]
 
 { #category : #accessing }
-SqsNeo4jQuery >> statement: aString [ 
+SqsNeo4jDayWithLinksQuery >> statement: aString [ 
 	statement := aString
 ]
