@@ -1,0 +1,616 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:15:44.704708+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:15:58.770324+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "nYngiaDjDQCPxrU3B7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Пока просто оставлю тут ссылки на полезные репозитории:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:15:59.003131+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:16:27.959987+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "g6q6iqDjDQCRCemPB7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- [Python-утилита для извлечения данных](https://github.com/google/dfindexeddb)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:16:31.637543+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:17:12.543864+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "gJysjKDjDQCSHDnaB7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "- [Собственно движок хранения](https://github.com/google/leveldb), в папке `docs` есть описание двоичных форматов файлов"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:18:15.73357+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:05:49.553141+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XwbhkqDjDQCT8nd4B7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Думается мне, что можно написать какой-нибудь Reader, возможно, из *.log файлов - там лежат все транзакции, осуществленные в БД. Синхронизировать данные можно, читая из лог-файлов транзакции и применяя те из них, которые еще не были сохранены в БД."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T11:53:25.723152+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T13:25:38.245902+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zKWkEKHjDQCayHqVB7PCUw=="
+				},
+				"code" : "db := (FileLocator home / 'snap' / 'chromium' / 'common' / 'chromium' / 'Default' / 'IndexedDB' / 'chrome-extension_ngceodoilcgpmkijopinlkmohnfifjfb_0.indexeddb.leveldb' / '000230.ldb') binaryReadStream nextVarint32"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:05:24.031774+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:06:18.643422+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "36Wgl6DjDQCaw68BB7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Буду пробовать реверс-инжиниринг для базы данных IndexedDB на основании Python-утилиты для извлечения данных."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:10:09.66184+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:14:45.380693+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RPMG+aLjDQCjAOooB7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Я задавал в качестве параметра для операции экспорта ключ `--use_manifest`, поэтому точкой входа для меня стал метод `indexeddb/chromium/record.py#FolderReader >> GetRecords`. Он создает экземпляр читателя из папки с БД и вызывает на нем его метод получения записей. Читатель этот предоставлен в файле `leveldb/record.py#FolderReader >> GetRecords`. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:20:47.721359+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T14:21:22.815836+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Kzw4H6PjDQCsnJ3hB7PCUw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Первая операция в этом метод - получение текущих версий из MANIFEST-файла. Я выполнил ее из терминала, сохранил результат, попробую получить такой же с помощью Smalltalk."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T15:50:20.943917+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T15:50:50.255019+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "+sTNX6TjDQC9dMFLARsvBA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "А-ха-ха, можно не реверс-инжинирить, а просто запускать нужный скрипт прямо в Питоне, благо GT позволяет это сделать. Сейчас попробую."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T16:51:52.485378+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T16:51:52.485378+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "OG34O6XjDQCS+3CTD6+ZDg=="
+				},
+				"code" : "pbApplication := PBApplication new.\rpbApplication settings workingDirectory: (FileLocator home / 'Dev' / 'reverse-engineering' / 'dfindexeddb').\rPBApplication uniqueInstance: pbApplication.\r"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T15:58:37.227973+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T16:51:52.487613+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "8peEfaTjDQCAdxn1ARsvBA=="
+				},
+				"code" : "pbApplication restart."
+			},
+			{
+				"__type" : "pythonSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T16:42:10.158764+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-21T09:05:43.081382+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ts5CGaXjDQCDd9YXARsvBA=="
+				},
+				"code" : "import get_leveldb_version\r\rget_leveldb_version.exportValues('/home/eugene/snap/chromium/common/chromium/Default/IndexedDB/chrome-extension_ngceodoilcgpmkijopinlkmohnfifjfb_0.indexeddb.leveldb/000230.ldb')\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T17:03:05.242265+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T17:03:13.179937+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "9LHKY6XjDQCX4nGgD6+ZDg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Огонь, все работает, осталось понять, что с этим делать :) "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T17:03:13.972558+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-19T17:05:02.211383+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pw2XZKXjDQCZIY8lD6+ZDg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Как будто бы я могу запустить скрипт экспорта всех данных из БД, получить их в виде набора объектов (прокси-оберток) в GT, а затем попытаться уложить в какую-то структуру в графовой БД, добавив только те объекты, которые еще не были синхронизированы. Более того, мне нужно один раз запустить полный экспорт БД, а затем только анализировать лог-файл, видимо. Но если вдруг лог-файл заархивируется, то я могу несколько записей потерять."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-21T09:09:03.763702+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-21T09:10:00.819317+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "pZFpAMfjDQCYbqdtAhEDGw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Но вообще я что-то туплю. Зачем использовать GT как посредника при перекладывании записей, полученных в ходе работы Python-скрипта, в БД, если можно напрямую в скрипте организовать запись?"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-21T09:25:19.29502+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-11-21T09:42:16.523194+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "84CnOsfjDQCdfaz4AhEDGw=="
+				},
+				"code" : "(FileLocator home / 'Dev' / 'pomodoroDb.ndjson') readStream "
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-11-19T11:15:44.548501+04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-11-19T11:15:44.548501+04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Извлечение данных из IndexedDB"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "1625de89-a0e3-0d00-8fc5-c76c07b3c253"
+	}
+}
