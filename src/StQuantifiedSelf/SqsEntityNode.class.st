@@ -5,29 +5,40 @@ Class {
 		'frontmatter',
 		'vault'
 	],
-	#category : #'StQuantifiedSelf-Base'
+	#category : #'StQuantifiedSelf-Nodes'
 }
 
 { #category : #'instance creation' }
 SqsEntityNode class >> fromMarkdown: aFile inVault: aVault [
-	| fileLines frontmatter|
-	fileLines := aFile contents lines indexOf: '---' startingAt: 2.
-	frontmatter := (aFile contents lines takeFirst: fileLines - 1) allButFirst
-		joinUsing: String cr.
-	^ self fromYamlFrontmatter: frontmatter inVault: aVault
+	^ self fromYamlFrontmatter: aFile frontmatter inVault: aVault
 ]
 
 { #category : #'instance creation' }
 SqsEntityNode class >> fromYamlFrontmatter: aFrontmatter inVault: aVault [
-	^ self new
+	^ (self newNodeForFrontmatter: aFrontmatter)
 		frontmatter: aFrontmatter;
 		vault: aVault;
-		yourself.
+		yourself
+]
+
+{ #category : #'instance creation' }
+SqsEntityNode class >> newNodeForFrontmatter: aFrontmatter [
+	^ self nodeByLabel: aFrontmatter 
+]
+
+{ #category : #'instance creation' }
+SqsEntityNode class >> nodeByLabel: aFrontmatter [
+	| nodeTypes requestedType |
+	nodeTypes := {'Day' -> [ SqsDayNode new ]} asDictionary.
+	requestedType := (aFrontmatter at: #labels) last.
+	^ (nodeTypes includesKey: requestedType)
+		ifTrue: [ (nodeTypes at: requestedType) value ]
+		ifFalse: [ SqsEntityNode new ]
 ]
 
 { #category : #accessing }
 SqsEntityNode >> frontmatter: aFrontmatter [ 
-	frontmatter := (YAMLParser parse: aFrontmatter) object
+	frontmatter := aFrontmatter
 ]
 
 { #category : #accessing }

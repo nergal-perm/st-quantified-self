@@ -5,7 +5,7 @@ Class {
 		'date',
 		'announcer',
 		'query',
-		'connectors'
+		'readConnectors'
 	],
 	#category : #StQuantifiedSelf
 }
@@ -39,12 +39,12 @@ SqsDashboard >> calendarWidget [
 
 { #category : #accessing }
 SqsDashboard >> connectors [
-	^ connectors
+	^ readConnectors
 ]
 
 { #category : #'instance creation' }
 SqsDashboard >> connectors: anObject [ 
-	connectors := anObject
+	readConnectors := anObject
 ]
 
 { #category : #accessing }
