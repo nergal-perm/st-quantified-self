@@ -1,0 +1,150 @@
+{
+	"__schema" : "4.1",
+	"__type" : "page",
+	"children" : {
+		"__type" : "snippets",
+		"items" : [
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T11:44:48.297367+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T11:45:00.054784+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wOyCdabkDQC+aBHJDtoBmA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Моделирую следующим образом:"
+			},
+			{
+				"__type" : "stringSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T11:45:03.566731+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T11:56:55.851262+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YHumdqbkDQC/q2bEDtoBmA=="
+				},
+				"code" : "title: \"2024-12-01 - Sleep\"\nlabels:\n  - Sleep\nlinks:\n  - \"-[:OCCURS_ON]->(:Day {title: '2024-12-01'})\"",
+				"contentString" : "title: \"2024-12-01 - Sleep\"\nlabels:\n  - Sleep\nlinks:\n  - \"-[:OCCURS_ON]->(:Day {title: '2024-12-01'})\"",
+				"bindingName" : "",
+				"format" : "YAMLParser"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T12:05:25.754571+04:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2024-12-02T12:05:25.754571+04:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Yph/v6bkDQC/v+nPDtoBmA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			}
+		]
+	},
+	"createEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"createTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-12-02T11:44:44.395791+04:00"
+		}
+	},
+	"editEmail" : {
+		"__type" : "email",
+		"emailString" : "<unknown>"
+	},
+	"editTime" : {
+		"__type" : "time",
+		"time" : {
+			"__type" : "dateAndTime",
+			"dateAndTimeString" : "2024-12-02T11:44:44.395791+04:00"
+		}
+	},
+	"pageType" : {
+		"__type" : "namedPage",
+		"title" : "Данные о сне"
+	},
+	"uid" : {
+		"__type" : "uuid",
+		"uuid" : "b6fc8175-a6e4-0d00-be67-95680eda0198"
+	}
+}

@@ -2,7 +2,8 @@ Class {
 	#name : #SqsObsidianVault,
 	#superclass : #Object,
 	#instVars : [
-		'folder'
+		'folder',
+		'nodes'
 	],
 	#category : #'StQuantifiedSelf-Base'
 }
@@ -46,12 +47,8 @@ SqsObsidianVault >> gtNodesFor: aView [
 
 { #category : #initialization }
 SqsObsidianVault >> readNodes [
-	^ self folder allFiles
-		select: [ :file | file contents beginsWith: '---' ]
-		thenCollect: [ :file | 
-			| fileLines |
-			fileLines := file contents lines indexOf: '---' startingAt: 2.
-			SqsEntityNode
-				fromYamlFrontmatter: ((file contents lines takeFirst: fileLines - 1) allButFirst joinUsing: String cr)
-				inVault: self ]
+	nodes := self folder allFiles
+			select: [ :file | file contents beginsWith: '---' ]
+			thenCollect: [ :file | SqsEntityNode fromMarkdown: file inVault: self ].
+	^ nodes
 ]

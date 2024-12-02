@@ -50,7 +50,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-11-19T09:01:59.01417+04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:55:46.684909+04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Dy/8qp7jDQCA+dUdB7PCUw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Учет и инвестирование времени]] "
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -60,7 +98,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-19T09:01:59.01417+04:00"
+									"dateAndTimeString" : "2024-12-02T10:47:12.044754+04:00"
 								}
 							},
 							"editEmail" : {
@@ -71,23 +109,135 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-19T09:02:08.882576+04:00"
+									"dateAndTimeString" : "2024-12-02T10:55:47.588973+04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Dy/8qp7jDQCA+dUdB7PCUw=="
+								"uidString" : "d0i7p6XkDQCZetAPDtoBmA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Учет и инвестирование времени]]"
+							"string" : "[[Процессы]] "
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-11-27T11:02:42.437441+04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:55:27.266649+04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Ug/7SUHkDQC5YVxLBZWOaw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Событие]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:55:36.991291+04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:55:36.991291+04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "0CfUxaXkDQCn9b22DtoBmA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[День]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:40:25.036759+04:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2024-12-02T10:55:44.573947+04:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "dtV4j6XkDQCUk7SCDtoBmA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Итоги дня]] "
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -97,7 +247,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-27T11:02:42.437441+04:00"
+									"dateAndTimeString" : "2024-12-02T10:47:31.334786+04:00"
 								}
 							},
 							"editEmail" : {
@@ -108,17 +258,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-27T11:02:54.375426+04:00"
+									"dateAndTimeString" : "2024-12-02T10:55:28.112774+04:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Ug/7SUHkDQC5YVxLBZWOaw=="
+								"uidString" : "LY26qKXkDQCZ1RtGDtoBmA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Событие]]"
+							"string" : "[[Сущности]] "
 						}
 					]
 				},
@@ -141,7 +291,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-17T09:51:08.014905+04:00"
+						"dateAndTimeString" : "2024-12-02T10:55:48.789273+04:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +301,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Моделирование]]"
+				"string" : "[[Моделирование]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -233,6 +383,80 @@
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-12-02T11:33:12.217428+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-12-02T11:33:30.944692+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ekASTKbkDQCpCK9cDtoBmA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Хранение расширенных данных в заметках]]"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-12-02T10:56:35.621127+04:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2024-12-02T10:56:45.189255+04:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nsFSyaXkDQCoOI9VDtoBmA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Тестовый репозиторий заметок]]"
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -497,45 +721,7 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-11-14T10:14:15.545213+04:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2024-11-14T10:14:33.840185+04:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "gYTHGDvjDQCON/ynDzalEA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Итоги дня]] как сущность"
-									}
-								]
+								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -606,43 +792,6 @@
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-27T12:11:29.869154+04:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2024-11-27T12:11:45.561532+04:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "fzLAP0LkDQCK1eu2BZWOaw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[[Прочитать данные заметок из хранилища]]"
-						},
 						{
 							"__type" : "textSnippet",
 							"children" : {

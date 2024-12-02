@@ -79,7 +79,7 @@
 				"string" : "Можно замоделировать чем-то таким:"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "stringSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-27T11:05:59.554638+04:00"
+						"dateAndTimeString" : "2024-12-02T10:42:14.246743+04:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2024-11-27T18:13:04.985867+04:00"
+						"dateAndTimeString" : "2024-12-02T10:45:07.989652+04:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WNO6VUHkDQCD2vPDBZWOaw=="
+					"uidString" : "kjz7laXkDQCV9vpcDtoBmA=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "```\nid: 202411271055\ntitle: Buddy-встреча\nlabels:\n  - Event\nlinks:\n  - - [:OCCURS_ON {time: \"18:00, duration: 45}] -> (:Day {title:  \"2024-11-27\"})\n  - <- [:ATTENDANT_OF] - (:Person {title: \"Мясников Сергей\"})\n```"
+				"code" : "id: 202411271055\ntitle: Buddy-встреча\nlabels:\n  - Event\nlinks:\n  - \"-[:OCCURS_ON {time: '18:00', duration: 45, unit: 'min'}]->(:Day {title:  '2024-11-27'})\"\n  - \"<-[:ATTENDANT_OF]-(:Person {title: 'Мясников Сергей'})\"",
+				"contentString" : "id: 202411271055\ntitle: Buddy-встреча\nlabels:\n  - Event\nlinks:\n  - \"-[:OCCURS_ON {time: '18:00', duration: 45, unit: 'min'}]->(:Day {title:  '2024-11-27'})\"\n  - \"<-[:ATTENDANT_OF]-(:Person {title: 'Мясников Сергей'})\"",
+				"bindingName" : "",
+				"format" : "YAMLParser"
 			},
 			{
 				"__type" : "textSnippet",
